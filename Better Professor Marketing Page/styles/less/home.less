@@ -18,6 +18,9 @@
       h1{
           padding: 1%;
           color: gray;
+          @media @tabletSmall {
+              font-size: 6rem;
+          }
           @media @desktop {
               width: 50%;
               font-size: 11rem;
@@ -53,6 +56,12 @@
       color: @darkBlue;
       border-radius: 2rem;
       padding: 2%;
+      @media @tabletSmall {
+          width: 50%;
+      }
+      @media @tabletLarge {
+          width: 66%;
+      }
       @media @desktop {
           width: 33%;
       }
