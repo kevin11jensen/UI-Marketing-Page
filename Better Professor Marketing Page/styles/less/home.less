@@ -10,14 +10,58 @@
   .hero {
       text-align: center;
       margin: 2%;
+      border-bottom: 1px solid black;
+     @media @desktop {
+          .flex(row, space-around, center);
+
+      }
+      h1{
+          padding: 1%;
+          color: gray;
+          @media @desktop {
+              width: 50%;
+              font-size: 11rem;
+          }
+      }
+      img {
+          width: 100%;
+          border-radius: 50%;
+          padding-bottom: 3%;
+          @media @desktop {
+              width: 50%;
+          }
+      }
   }
 
   #about {
-      text-align: center;
+      
       margin: 2%;
+      border-bottom: 1px solid black;
+      h2 {
+          text-align: center;
+      }
+      p {
+          padding: 1%;
+          margin-bottom: 2%;
+      }
   }
 
   #contact {
-      text-align: center;
+      width: 100%;
       margin: 2%;
+      background-color: @moon;
+      color: @darkBlue;
+      border-radius: 2rem;
+      padding: 2%;
+      @media @desktop {
+          width: 33%;
+      }
+      h2 {
+          padding-bottom: 5%;
+          color: black;
+      }
+      p {
+          padding-bottom: 2%;
+          margin-bottom: 2%;
+      }
   }

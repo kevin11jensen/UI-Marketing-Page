@@ -1,9 +1,19 @@
 nav {
     display: flex;
     justify-content: space-around;
+    padding: 3%;
+    border-bottom: 1px solid black;
     a {
         font-family: 'Averia Sans Libre', ;
         text-decoration: none; 
         color: gray;
+        @media @desktop {
+            font-size: 3rem;
+            
+        }
+    }
+    a:hover {
+        color: @darkBlue;
+        border-bottom: 2px solid @darkBlue;
     }
 }
