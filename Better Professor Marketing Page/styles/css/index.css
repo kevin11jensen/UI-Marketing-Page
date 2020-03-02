@@ -135,12 +135,20 @@ html {
 }
 h1 {
   font-size: 3rem;
+  font-family: 'Londrina Shadow';
+  color: gray;
 }
 h2 {
   font-size: 2rem;
+  font-family: 'Averia Sans Libre';
 }
 p {
   font-size: 1.6rem;
+  font-family: 'Voces';
+}
+a {
+  font-family: 'Averia Sans Libre';
+  text-decoration: none;
 }
 nav {
   display: flex;
