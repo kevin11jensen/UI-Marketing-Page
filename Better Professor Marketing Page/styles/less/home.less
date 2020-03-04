@@ -26,15 +26,37 @@
               font-size: 11rem;
           }
       }
+      
       img {
           width: 100%;
           border-radius: 50%;
           padding-bottom: 3%;
           @media @desktop {
-              width: 50%;
+              width: 70%;
           }
       }
-  }
+      button {
+          margin: 4%;
+          padding: 2%;
+          width: 16rem;
+          border-radius: .5rem;
+          background-color: @lightBlue;
+          border: 1px solid @darkBlue;
+          font-family: 'Averia Sans Libre', ;
+          font-size: 1.6rem;
+          color: @darkBlue; 
+          @media @desktop {
+              width: 20rem;
+              font-size: 3rem;
+              
+          }
+      }
+     .mobile {
+         @media @desktop {
+             display: none;
+         }
+     } 
+}
 
   #about {
       
@@ -52,7 +74,7 @@
   #contact {
       width: 100%;
       margin: 2%;
-      background-color: @moon;
+      background-color: @lightBlue;
       color: @darkBlue;
       border-radius: 2rem;
       padding: 2%;
